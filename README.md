@@ -30,7 +30,8 @@ This repository contains:
 - [Dataset](#dataset)  
 - [Dataset Structure](#dataset-structure)  
 - [COIN Dataset](#coin-dataset)  
-- [ProcedureVRL Predictions](#procedurevrl-predictions)  
+- [ProcedureVRL Predictions](#procedurevrl-predictions)
+- [Installation](#Installation)
 - [Citations](#citations)  
 - [License](#license)
 
