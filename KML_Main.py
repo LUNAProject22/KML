@@ -92,8 +92,8 @@ if os.path.exists('kml_ckpt') == False:
 model_save_name = 'kml_ckpt/kml_model_h{}.b{}.e{}.lr{}.wd{}.emb{}.temp{}.s{}-init.{}.pt'.format(
     args.hdim, args.bs, args.epochs, args.lr, args.wd, args.embsize, args.temp, args.isscheduler, args.embinit)
 
-is_KG_Based_Trainining = False
-is_QA_Based_Training = False
+is_KG_Based_Trainining = True
+is_QA_Based_Training = True
 
         
 
