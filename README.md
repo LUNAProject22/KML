@@ -31,9 +31,6 @@ This repository contains:
 - [Dataset Structure](#dataset-structure)  
 - [COIN Dataset](#coin-dataset)  
 - [ProcedureVRL Predictions](#procedurevrl-predictions)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Repository Structure](#repository-structure)  
 - [Citations](#citations)  
 - [License](#license)
 
@@ -112,8 +109,21 @@ https://github.com/facebookresearch/ProcedureVRL
 python KML_Main.py -s
 ```
 
-## Citation
+## Citations
 ```bibtex
+@article{nguyen2025neuro,
+  title={Neuro Symbolic Knowledge Reasoning for Procedural Video Question Answering},
+  author={Nguyen, Thanh-Son and Yang, Hong and Neoh, Tzeh Yuan and Zhang, Hao and Keat, Ee Yeo and Fernando, Basura},
+  journal={arXiv preprint arXiv:2503.14957},
+  year={2025}
+}
+
+@inproceedings{nguyen2025aaai,
+  title={PKR-QA: A Benchmark for Procedural Knowledge Reasoning with Knowledge Module Learning},
+  author={Nguyen, Thanh-Son and Yang, Hong and Neoh, Tzeh Yuan and Zhang, Hao and Keat, Ee Yeo and Fernando, Basura},
+  booktitle={AAAI},
+  year={2026}
+}
 
 ```
 
