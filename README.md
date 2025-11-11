@@ -1,1 +1,119 @@
-# Source code for KML: Knowledge Module Learning & PKR-QA: A Benchmark for Procedural Knowledge Reasoning
+# KML: Knowledge Module Learning  
+# PKR-QA: A Benchmark for Procedural Knowledge Reasoning
+
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+![Python](https://img.shields.io/badge/python-3.9%2B-brightgreen)
+![Dataset](https://img.shields.io/badge/dataset-PKR--QA-orange)
+![Status](https://img.shields.io/badge/status-active-success)
+
+---
+
+## Overview
+
+**Knowledge Module Learning (KML)** is a neurosymbolic framework that learns structured knowledge modules from relational data and performs procedural reasoning over multi-step tasks.
+
+**PKR-QA** is the first benchmark for **Procedural Knowledge Reasoning**, combining instructional videos (COIN dataset), knowledge graphs, step predictions, and structured question-answer pairs.
+
+This repository contains:
+
+- KML source code  
+- PKR-QA dataset (JSON format)  
+- ProcedureVRL task/step predictions  
+- Knowledge graph files  
+- Training and evaluation scripts  
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)  
+- [Dataset](#dataset)  
+- [Dataset Structure](#dataset-structure)  
+- [COIN Dataset](#coin-dataset)  
+- [ProcedureVRL Predictions](#procedurevrl-predictions)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Repository Structure](#repository-structure)  
+- [Citations](#citations)  
+- [License](#license)
+
+---
+
+## Dataset
+
+Download and extract the PKR-QA dataset using:
+
+```bash
+tar -I zstd -xf pkr-qa.tar.zst
+```
+
+## PKR-QA includes:
+
+- A knowledge graph (cointrain_kgv2.json)
+
+- Step and task predictions from ProcedureVRL
+
+- QA splits for training, validation, and testing
+
+- Small sample splits for fast prototyping
+
+## Dataset Structure
+
+```pgsql
+dataset/
+├── cointrain_kgv2.json                     # Knowledge graph (KG)
+├── QA_25Oct24_testing_pred.json            # ProcedureVRL predictions (test)
+├── QA_25Oct24_validation_pred.json         # ProcedureVRL predictions (val)
+└── s4_QADataset_12Feb2025/
+    ├── testing.json    
+    ├── train/
+    │   └── training_small_100.json
+    └── val/
+        └── validation_small_50.json
+```
+
+## COIN Dataset
+
+Videos used in PKR-QA are from the COIN dataset:
+https://coin-dataset.github.io/
+
+```bibtex
+@INPROCEEDINGS{
+    title={COIN: A Large-scale Dataset for Comprehensive Instructional Video Analysis},
+    author={Yansong Tang, Dajun Ding, Yongming Rao, Yu Zheng, Danyang Zhang, Lili Zhao, Jiwen Lu, Jie Zhou},
+    booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year={2019}
+}
+```
+
+## ProcedureVRL Predictions
+
+PKR-QA uses ProcedureVRL for task and step predictions:
+https://github.com/facebookresearch/ProcedureVRL
+
+```bibtex
+@inproceedings{zhong2023learning,
+  title={Learning Procedure-aware Video Representation from Instructional Videos and Their Narrations},
+  author={Zhong, Yiwu and Yu, Licheng and Bai, Yang and Li, Shangwen and Yan, Xueting and Li, Yin},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={14825--14835},
+  year={2023}
+}
+```
+## Installation
+
+- Clone the repo
+- Run setup.sh
+- Need pytorch 2.8 or later.
+
+## Train and testing
+
+```bash
+python KML_Main.py -s
+```
+
+## Citation
+```bibtex
+
+```
+
