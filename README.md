@@ -33,7 +33,7 @@ This repository contains:
 - [ProcedureVRL Predictions](#procedurevrl-predictions)
 - [Installation](#Installation)
 - [Citations](#citations)  
-- [License](#license)
+- [License](#[license](https://github.com/LUNAProject22/KML/blob/main/LICENSE))
 
 ---
 
