@@ -45,16 +45,13 @@ def get_inverse_relation_names_for_PKVQA_Module(module_name):
 
 
 class TextEncoder(ABC):
-    """Abstract base class for animals."""
 
     @abstractmethod
     def encode_text(self, text):
-        """Each animal must implement this method."""
         pass
 
     @abstractmethod
     def get_name(self):
-        """Each animal must implement this method."""
         pass
 
    
