@@ -22,6 +22,9 @@ This repository contains:
 - Knowledge graph files  
 - Training and evaluation scripts  
 
+<img width="992" height="916" alt="KML" src="https://github.com/user-attachments/assets/f1ffcf19-28ba-4c56-930f-9447a41a8efb" />
+
+
 ---
 
 ## Table of Contents
