@@ -72,6 +72,7 @@ dataset/
     └── val/
         └── validation_small_50.json
 ```
+<img width="1940" height="758" alt="PQR-QA" src="https://github.com/user-attachments/assets/646ad83b-0d9a-4544-998f-c26d132577b1" />
 
 ## COIN Dataset
 
