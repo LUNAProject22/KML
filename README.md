@@ -125,6 +125,11 @@ python KML_Main.py -s
   booktitle={AAAI},
   year={2026}
 }
-
 ```
+
+
+## Acknowledgments
+This research/project is supported by the National Research Foundation, Singapore, under its NRF Fellowship (Award\# NRF-NRFF14-2022-0001) and by funding allocation to Basura Fernando by the A*STAR under its SERC Central Research Fund (CRF), as well as its Centre for Frontier AI Research.
+
+
 
