@@ -41,7 +41,7 @@ This repository contains:
 ---
 
 ## Dataset
-
+Dataset is available when you clone this repo.
 Download and extract the PKR-QA dataset using:
 
 ```bash
