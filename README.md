@@ -47,6 +47,8 @@ Download and extract the PKR-QA dataset using:
 ```bash
 tar -I zstd -xf pkr-qa.tar.zst
 ```
+Dataset is also available in huggingface
+https://huggingface.co/datasets/fernandopbc/PKR-QA/
 
 ## PKR-QA includes:
 
